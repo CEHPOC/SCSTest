@@ -1,0 +1,16 @@
+@using SCSTest.Models
+@model List<User>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    foreach (User u in ViewBag.people)
+    {
+        <h2>@u.Login @u.Password</h2>
+    }
+}
+
+

@@ -1,0 +1,27 @@
+@page
+
+
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Sign Up</title>
+</head>
+<body>
+<div>
+    <h2>Sign Up</h2>
+    <form method="post">
+        <label for="Login">Login:</label>
+        <input type="text" name="Login"/><br/>
+        <label for="Password">Password:</label>
+        <input type="password" name="Password"/><br/>
+        <input type="submit" value="Send"/>
+    </form>
+</div>
+</body>
+</html>
